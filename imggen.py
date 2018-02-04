@@ -37,7 +37,7 @@ def makePattern(arr):
         for y in range(level, 500 - level):
             for x in range(level, 500 - level):
                 arr[500*(x)+(y)] = color
-        print("here")
+        //print("here")
         level += 5
     return arr
             

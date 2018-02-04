@@ -1,3 +1,3 @@
 all: imggen.py
-	pyython imggen.py
+	python imggen.py
 	magick convert image.ppm image.png
